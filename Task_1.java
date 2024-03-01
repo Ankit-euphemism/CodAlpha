@@ -11,6 +11,7 @@ public class Task_1 {
         }
         return min;
     }
+    //Function to find max value
     public int max(int grades[]) {
         int max = grades[0];
         for (int i = 0;i<grades.length;i++){
