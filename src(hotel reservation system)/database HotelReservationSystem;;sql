@@ -1,0 +1,26 @@
+-- Active: 1709925583503@@localhost@3306@hotelreservationsystem
+use HotelReservationSystem;
+create table lig(username varchar(25),password varchar(25));
+insert into lig values("tajhotel","34092");
+select* from lig;
+create table emp(name varchar(25),age varchar(10),gender varchar(15),job varchar(30),salary varchar(15),phone varchar(13),aadhar varchar(20),email varchar(40));
+describe emp;
+select * from emp;
+create table Room(room varchar(10), available varchar(20),status varchar(20),price varchar(220),type varchar(20));
+describe Room;
+select * from Room;
+create table driver(name varchar(40),age varchar(40),gender varchar(40),company varchar(40),brand varchar(40),available varchar(40),location varchar(40));
+describe driver;
+select * from driver;
+create table ct(document varchar(20),number varchar(30),name varchar(30),gender varchar(15),country varchar(20),foom varchar(10),checkintime varchar(80),deposite varchar(20));
+describe ct;
+select*from ct;
+create table Department(department varchar(30),budget varchar(30));
+describe Department;
+insert into Department values("Front office","500000");
+insert into Department values("Housekeeping","50000");
+insert into Department values("Food and Beverage","23000");
+insert into Department values("kitchen and Fod Production","540000");
+insert into Department values("SEcurity","300000");
+
+select * from Department; 
