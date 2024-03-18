@@ -65,12 +65,12 @@ public class Login extends JFrame implements ActionListener{
 
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource()==b1){
-            // String u=username.getText();
-            // @SuppressWarnings("deprecation")
-            // String p=password.getText();
+             String u=username.getText();
+             @SuppressWarnings("deprecation")
+             String p=password.getText();
              try{
                 conn c1=new conn();
-               String a="select* from lig where username='"+username+"'and password='"+password+"'";
+               String a="select* from lig where username='"+u+"'and password='"+p+"'";
                ResultSet rs = ((Statement)c1.statement).executeQuery(a);
                 if(rs.next()){
                     setVisible(false);
