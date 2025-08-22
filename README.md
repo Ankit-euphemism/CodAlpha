@@ -154,4 +154,4 @@ This project is created for educational purposes as part of CodeAlpha internship
 
 ---
 
-*Developed as part of CodeAlpha Software Development Internship*
+*Developed as part of CodeAlpha Java Programming Internship*
